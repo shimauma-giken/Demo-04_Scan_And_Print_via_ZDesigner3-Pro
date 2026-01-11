@@ -1,21 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <scannerconfig version="1.0" app-version="6.0.36.0">
   <metadata>
-    <plug-in build="11">DS9208-COMMON SR MODELS-S-025</plug-in>
+    <plug-in build="2">DS4308-COMMON SR MODELS-S-013</plug-in>
     <models>
-      <model>2356-9208-0000</model>
-      <model>DS9208-SR00004CNWW</model>
-      <model>DS9208-SR00004NNWW</model>
-      <model>DS9208-SR00004NNY</model>
-      <model>DS9208-SR0000WCNWW</model>
-      <model>DS9208-SR0000WNNWW</model>
-      <model>DS9208-SR00214NNWW</model>
-      <model>DS9208-SR00254NNWW</model>
-      <model>DS9208-SR4NNU21ZY</model>
-      <model>DS9208-SR00004NNCN</model>
+      <model>DS4308-HD00007ZCAP</model>
+      <model>DS4308-HD00007ZCWW</model>
+      <model>DS4308-HD00007ZZAP</model>
+      <model>DS4308-HD00007ZZWW</model>
+      <model>DS4308-SR00006ZZAP</model>
+      <model>DS4308-SR00006ZZWW</model>
+      <model>DS4308-SR00007PCAP</model>
+      <model>DS4308-SR00007PCWW</model>
+      <model>DS4308-SR00007PZAP</model>
+      <model>DS4308-SR00007PZWW</model>
+      <model>DS4308-SR00007PZY</model>
+      <model>DS4308-SR00007ZZAP</model>
+      <model>DS4308-SR00007ZZWW</model>
+      <model>DS4308-SR00007ZZY</model>
+      <model>DS4308-HD00007ZZ-B</model>
     </models>
-    <firmware>CAAASS00-007-R02</firmware>
-    <config-name>Untitled1</config-name>
+    <firmware>CAACES00-003-R01</firmware>
+    <config-name>Untitled2</config-name>
     <config-version>001</config-version>
     <config-notes>
     </config-notes>
@@ -39,7 +44,7 @@
       <parameter id="100401">0</parameter>
       <parameter id="100402">0</parameter>
     </config-options>
-    <rsm-attribute-exception-list>392,135,614,834,686,547,699,661,361,366,576,579,580,607,552,616,6001,2115,20011,20007,20004,20009</rsm-attribute-exception-list>
+    <rsm-attribute-exception-list>392,135,614,834,686,547,699,661,361,366,576,579,580,607,552,616,6001,2115,20011,20007,20004,20009,40000,40001,40002</rsm-attribute-exception-list>
   </metadata>
   <rule-names>
     <rule-name>ZD3-Scan-Demo-01</rule-name>
@@ -59,12 +64,17 @@
     <attribute>
       <id>135</id>
       <datatype>A</datatype>
-      <value>0x01 0x00 0x58 0x55 0x41 0x00 0x13 0x00 0x00 0x00 0x00 0x00 0x00 0x03 0x80 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00</value>
+      <value>0x01 0x00 0x58 0x55 0x41 0x00 0x13 0x03 0x00 0x00 0x06 0x40 0x04 0x03 0xa0 0x00 0x00 0x00 0x00 0x01 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00</value>
     </attribute>
     <attribute>
       <id>235</id>
       <datatype>B</datatype>
       <value>0</value>
+    </attribute>
+    <attribute>
+      <id>111</id>
+      <datatype>B</datatype>
+      <value>10</value>
     </attribute>
     <attribute>
       <id>98</id>
@@ -132,9 +142,64 @@
       <value>0</value>
     </attribute>
     <attribute>
-      <id>629</id>
+      <id>834</id>
+      <datatype>A</datatype>
+      <value>0x00 </value>
+    </attribute>
+    <attribute>
+      <id>880</id>
       <datatype>F</datatype>
-      <value>False</value>
+      <value>True</value>
+    </attribute>
+    <attribute>
+      <id>881</id>
+      <datatype>I</datatype>
+      <value>-1</value>
+    </attribute>
+    <attribute>
+      <id>882</id>
+      <datatype>I</datatype>
+      <value>-1</value>
+    </attribute>
+    <attribute>
+      <id>883</id>
+      <datatype>I</datatype>
+      <value>-1</value>
+    </attribute>
+    <attribute>
+      <id>884</id>
+      <datatype>I</datatype>
+      <value>-1</value>
+    </attribute>
+    <attribute>
+      <id>885</id>
+      <datatype>I</datatype>
+      <value>-1</value>
+    </attribute>
+    <attribute>
+      <id>886</id>
+      <datatype>I</datatype>
+      <value>-1</value>
+    </attribute>
+    <attribute>
+      <id>887</id>
+      <datatype>I</datatype>
+      <value>-1</value>
+    </attribute>
+    <attribute>
+      <id>888</id>
+      <datatype>I</datatype>
+      <value>-1</value>
+    </attribute>
+    <attribute>
+      <id>889</id>
+      <datatype>I</datatype>
+      <value>-1</value>
+    </attribute>
+    <attribute>
+      <id>890</id>
+      <datatype>I</datatype>
+      <value>-1</value>
     </attribute>
     <attribute>
       <id>128</id>
@@ -147,6 +212,11 @@
       <value>49</value>
     </attribute>
     <attribute>
+      <id>236</id>
+      <datatype>F</datatype>
+      <value>True</value>
+    </attribute>
+    <attribute>
       <id>960</id>
       <datatype>B</datatype>
       <value>0</value>
@@ -157,14 +227,19 @@
       <value>0</value>
     </attribute>
     <attribute>
-      <id>138</id>
-      <datatype>B</datatype>
-      <value>7</value>
+      <id>973</id>
+      <datatype>F</datatype>
+      <value>False</value>
     </attribute>
     <attribute>
-      <id>237</id>
+      <id>972</id>
       <datatype>B</datatype>
-      <value>50</value>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>400</id>
+      <datatype>B</datatype>
+      <value>30</value>
     </attribute>
     <attribute>
       <id>94</id>
@@ -174,17 +249,17 @@
     <attribute>
       <id>137</id>
       <datatype>B</datatype>
-      <value>4</value>
+      <value>5</value>
     </attribute>
     <attribute>
       <id>144</id>
       <datatype>B</datatype>
-      <value>0</value>
+      <value>1</value>
     </attribute>
     <attribute>
       <id>402</id>
       <datatype>B</datatype>
-      <value>1</value>
+      <value>0</value>
     </attribute>
     <attribute>
       <id>136</id>
@@ -197,19 +272,29 @@
       <value>0</value>
     </attribute>
     <attribute>
-      <id>306</id>
+      <id>138</id>
       <datatype>B</datatype>
-      <value>2</value>
+      <value>9</value>
     </attribute>
     <attribute>
-      <id>590</id>
-      <datatype>B</datatype>
-      <value>0</value>
+      <id>649</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>723</id>
+      <datatype>F</datatype>
+      <value>True</value>
     </attribute>
     <attribute>
       <id>514</id>
       <datatype>F</datatype>
       <value>True</value>
+    </attribute>
+    <attribute>
+      <id>716</id>
+      <datatype>B</datatype>
+      <value>0</value>
     </attribute>
     <attribute>
       <id>719</id>
@@ -222,24 +307,9 @@
       <value>200</value>
     </attribute>
     <attribute>
-      <id>716</id>
+      <id>810</id>
       <datatype>B</datatype>
-      <value>3</value>
-    </attribute>
-    <attribute>
-      <id>649</id>
-      <datatype>F</datatype>
-      <value>False</value>
-    </attribute>
-    <attribute>
-      <id>663</id>
-      <datatype>B</datatype>
-      <value>17</value>
-    </attribute>
-    <attribute>
-      <id>723</id>
-      <datatype>F</datatype>
-      <value>False</value>
+      <value>2</value>
     </attribute>
     <attribute>
       <id>609</id>
@@ -247,24 +317,9 @@
       <value>2</value>
     </attribute>
     <attribute>
-      <id>827</id>
-      <datatype>B</datatype>
-      <value>1</value>
-    </attribute>
-    <attribute>
-      <id>809</id>
-      <datatype>B</datatype>
-      <value>1</value>
-    </attribute>
-    <attribute>
-      <id>298</id>
-      <datatype>F</datatype>
-      <value>True</value>
-    </attribute>
-    <attribute>
-      <id>857</id>
-      <datatype>F</datatype>
-      <value>False</value>
+      <id>1118</id>
+      <datatype>W</datatype>
+      <value>0</value>
     </attribute>
     <attribute>
       <id>858</id>
@@ -272,14 +327,39 @@
       <value>False</value>
     </attribute>
     <attribute>
-      <id>537</id>
+      <id>859</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>630</id>
+      <datatype>F</datatype>
+      <value>True</value>
+    </attribute>
+    <attribute>
+      <id>669</id>
+      <datatype>B</datatype>
+      <value>8</value>
+    </attribute>
+    <attribute>
+      <id>298</id>
+      <datatype>F</datatype>
+      <value>True</value>
+    </attribute>
+    <attribute>
+      <id>306</id>
       <datatype>B</datatype>
       <value>2</value>
     </attribute>
     <attribute>
-      <id>236</id>
-      <datatype>F</datatype>
-      <value>True</value>
+      <id>590</id>
+      <datatype>B</datatype>
+      <value>2</value>
+    </attribute>
+    <attribute>
+      <id>650</id>
+      <datatype>B</datatype>
+      <value>2</value>
     </attribute>
     <attribute>
       <id>140</id>
@@ -297,11 +377,6 @@
       <value>True</value>
     </attribute>
     <attribute>
-      <id>403</id>
-      <datatype>B</datatype>
-      <value>50</value>
-    </attribute>
-    <attribute>
       <id>628</id>
       <datatype>B</datatype>
       <value>1</value>
@@ -312,19 +387,124 @@
       <value>False</value>
     </attribute>
     <attribute>
-      <id>677</id>
-      <datatype>F</datatype>
-      <value>False</value>
-    </attribute>
-    <attribute>
-      <id>717</id>
-      <datatype>F</datatype>
-      <value>False</value>
-    </attribute>
-    <attribute>
-      <id>722</id>
+      <id>809</id>
       <datatype>B</datatype>
-      <value>2</value>
+      <value>1</value>
+    </attribute>
+    <attribute>
+      <id>745</id>
+      <datatype>B</datatype>
+      <value>20</value>
+    </attribute>
+    <attribute>
+      <id>1300</id>
+      <datatype>B</datatype>
+      <value>1</value>
+    </attribute>
+    <attribute>
+      <id>827</id>
+      <datatype>B</datatype>
+      <value>1</value>
+    </attribute>
+    <attribute>
+      <id>857</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>680</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>684</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>681</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>685</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>682</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>683</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>687</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>691</id>
+      <datatype>B</datatype>
+      <value>1</value>
+    </attribute>
+    <attribute>
+      <id>689</id>
+      <datatype>B</datatype>
+      <value>3</value>
+    </attribute>
+    <attribute>
+      <id>690</id>
+      <datatype>B</datatype>
+      <value>100</value>
+    </attribute>
+    <attribute>
+      <id>554</id>
+      <datatype>B</datatype>
+      <value>80</value>
+    </attribute>
+    <attribute>
+      <id>695</id>
+      <datatype>B</datatype>
+      <value>50</value>
+    </attribute>
+    <attribute>
+      <id>688</id>
+      <datatype>B</datatype>
+      <value>1</value>
+    </attribute>
+    <attribute>
+      <id>694</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>856</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>1770</id>
+      <datatype>B</datatype>
+      <value>1</value>
+    </attribute>
+    <attribute>
+      <id>40000</id>
+      <datatype>A</datatype>
+      <value>0x35 0x34 0x52 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00</value>
+    </attribute>
+    <attribute>
+      <id>40001</id>
+      <datatype>A</datatype>
+      <value>0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00</value>
+    </attribute>
+    <attribute>
+      <id>40002</id>
+      <datatype>A</datatype>
+      <value>0x31 0x32 0x31 0x32 0x31 0x32 0x31 0x32 0x31 0x32 0x31 0x32 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00</value>
     </attribute>
     <attribute>
       <id>408</id>
@@ -334,17 +514,22 @@
     <attribute>
       <id>7</id>
       <datatype>F</datatype>
-      <value>False</value>
+      <value>True</value>
     </attribute>
     <attribute>
       <id>24</id>
       <datatype>B</datatype>
-      <value>5</value>
+      <value>4</value>
     </attribute>
     <attribute>
       <id>25</id>
       <datatype>B</datatype>
       <value>55</value>
+    </attribute>
+    <attribute>
+      <id>855</id>
+      <datatype>B</datatype>
+      <value>0</value>
     </attribute>
     <attribute>
       <id>54</id>
@@ -357,9 +542,9 @@
       <value>False</value>
     </attribute>
     <attribute>
-      <id>855</id>
-      <datatype>F</datatype>
-      <value>True</value>
+      <id>1776</id>
+      <datatype>B</datatype>
+      <value>1</value>
     </attribute>
     <attribute>
       <id>10</id>
@@ -404,12 +589,12 @@
     <attribute>
       <id>209</id>
       <datatype>B</datatype>
-      <value>0</value>
+      <value>1</value>
     </attribute>
     <attribute>
       <id>210</id>
       <datatype>B</datatype>
-      <value>0</value>
+      <value>55</value>
     </attribute>
     <attribute>
       <id>1208</id>
@@ -434,7 +619,7 @@
     <attribute>
       <id>577</id>
       <datatype>B</datatype>
-      <value>0</value>
+      <value>2</value>
     </attribute>
     <attribute>
       <id>578</id>
@@ -454,7 +639,7 @@
     <attribute>
       <id>18</id>
       <datatype>B</datatype>
-      <value>2</value>
+      <value>1</value>
     </attribute>
     <attribute>
       <id>19</id>
@@ -463,11 +648,6 @@
     </attribute>
     <attribute>
       <id>43</id>
-      <datatype>F</datatype>
-      <value>False</value>
-    </attribute>
-    <attribute>
-      <id>113</id>
       <datatype>F</datatype>
       <value>False</value>
     </attribute>
@@ -482,14 +662,14 @@
       <value>False</value>
     </attribute>
     <attribute>
-      <id>1209</id>
-      <datatype>F</datatype>
-      <value>False</value>
-    </attribute>
-    <attribute>
       <id>750</id>
       <datatype>B</datatype>
       <value>1</value>
+    </attribute>
+    <attribute>
+      <id>1209</id>
+      <datatype>F</datatype>
+      <value>False</value>
     </attribute>
     <attribute>
       <id>86</id>
@@ -504,12 +684,12 @@
     <attribute>
       <id>9</id>
       <datatype>F</datatype>
-      <value>False</value>
+      <value>True</value>
     </attribute>
     <attribute>
       <id>26</id>
       <datatype>B</datatype>
-      <value>4</value>
+      <value>1</value>
     </attribute>
     <attribute>
       <id>27</id>
@@ -547,6 +727,11 @@
       <value>False</value>
     </attribute>
     <attribute>
+      <id>1113</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
       <id>5</id>
       <datatype>F</datatype>
       <value>False</value>
@@ -554,12 +739,12 @@
     <attribute>
       <id>20</id>
       <datatype>B</datatype>
-      <value>12</value>
+      <value>1</value>
     </attribute>
     <attribute>
       <id>21</id>
       <datatype>B</datatype>
-      <value>0</value>
+      <value>55</value>
     </attribute>
     <attribute>
       <id>338</id>
@@ -577,14 +762,19 @@
       <value>True</value>
     </attribute>
     <attribute>
+      <id>397</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
       <id>728</id>
       <datatype>B</datatype>
       <value>3</value>
     </attribute>
     <attribute>
-      <id>397</id>
-      <datatype>F</datatype>
-      <value>False</value>
+      <id>1706</id>
+      <datatype>B</datatype>
+      <value>1</value>
     </attribute>
     <attribute>
       <id>6</id>
@@ -617,14 +807,14 @@
       <value>False</value>
     </attribute>
     <attribute>
-      <id>1210</id>
-      <datatype>F</datatype>
-      <value>False</value>
-    </attribute>
-    <attribute>
       <id>1121</id>
       <datatype>B</datatype>
       <value>1</value>
+    </attribute>
+    <attribute>
+      <id>1210</id>
+      <datatype>F</datatype>
+      <value>False</value>
     </attribute>
     <attribute>
       <id>581</id>
@@ -639,12 +829,12 @@
     <attribute>
       <id>619</id>
       <datatype>B</datatype>
-      <value>14</value>
+      <value>4</value>
     </attribute>
     <attribute>
       <id>620</id>
       <datatype>B</datatype>
-      <value>0</value>
+      <value>55</value>
     </attribute>
     <attribute>
       <id>622</id>
@@ -687,9 +877,19 @@
       <value>False</value>
     </attribute>
     <attribute>
+      <id>1392</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
       <id>292</id>
       <datatype>F</datatype>
       <value>True</value>
+    </attribute>
+    <attribute>
+      <id>537</id>
+      <datatype>B</datatype>
+      <value>2</value>
     </attribute>
     <attribute>
       <id>588</id>
@@ -707,14 +907,14 @@
       <value>True</value>
     </attribute>
     <attribute>
-      <id>573</id>
-      <datatype>F</datatype>
-      <value>True</value>
-    </attribute>
-    <attribute>
       <id>1343</id>
       <datatype>F</datatype>
       <value>False</value>
+    </attribute>
+    <attribute>
+      <id>573</id>
+      <datatype>F</datatype>
+      <value>True</value>
     </attribute>
     <attribute>
       <id>574</id>
@@ -738,6 +938,21 @@
     </attribute>
     <attribute>
       <id>1168</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>1718</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>1719</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>1736</id>
       <datatype>B</datatype>
       <value>0</value>
     </attribute>
@@ -899,12 +1114,12 @@
     <attribute>
       <id>579</id>
       <datatype>W</datatype>
-      <value>65535</value>
+      <value>0</value>
     </attribute>
     <attribute>
       <id>580</id>
       <datatype>W</datatype>
-      <value>65535</value>
+      <value>0</value>
     </attribute>
     <attribute>
       <id>40</id>
@@ -967,6 +1182,26 @@
       <value>False</value>
     </attribute>
     <attribute>
+      <id>361</id>
+      <datatype>B</datatype>
+      <value>1</value>
+    </attribute>
+    <attribute>
+      <id>360</id>
+      <datatype>B</datatype>
+      <value>1</value>
+    </attribute>
+    <attribute>
+      <id>567</id>
+      <datatype>W</datatype>
+      <value>100</value>
+    </attribute>
+    <attribute>
+      <id>568</id>
+      <datatype>B</datatype>
+      <value>50</value>
+    </attribute>
+    <attribute>
       <id>390</id>
       <datatype>B</datatype>
       <value>180</value>
@@ -992,11 +1227,6 @@
       <value>2</value>
     </attribute>
     <attribute>
-      <id>361</id>
-      <datatype>B</datatype>
-      <value>1</value>
-    </attribute>
-    <attribute>
       <id>665</id>
       <datatype>B</datatype>
       <value>0</value>
@@ -1017,14 +1247,24 @@
       <value>65</value>
     </attribute>
     <attribute>
+      <id>323</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
       <id>300</id>
       <datatype>F</datatype>
       <value>True</value>
     </attribute>
     <attribute>
-      <id>323</id>
+      <id>1293</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>562</id>
       <datatype>B</datatype>
-      <value>0</value>
+      <value>2</value>
     </attribute>
     <attribute>
       <id>93</id>
@@ -1074,12 +1314,132 @@
     <attribute>
       <id>317</id>
       <datatype>W</datatype>
-      <value>479</value>
+      <value>799</value>
     </attribute>
     <attribute>
       <id>318</id>
       <datatype>W</datatype>
-      <value>751</value>
+      <value>1279</value>
+    </attribute>
+    <attribute>
+      <id>324</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>328</id>
+      <datatype>B</datatype>
+      <value>22</value>
+    </attribute>
+    <attribute>
+      <id>916</id>
+      <datatype>B</datatype>
+      <value>1</value>
+    </attribute>
+    <attribute>
+      <id>329</id>
+      <datatype>B</datatype>
+      <value>17</value>
+    </attribute>
+    <attribute>
+      <id>594</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>655</id>
+      <datatype>W</datatype>
+      <value>1</value>
+    </attribute>
+    <attribute>
+      <id>596</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>597</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>598</id>
+      <datatype>W</datatype>
+      <value>300</value>
+    </attribute>
+    <attribute>
+      <id>599</id>
+      <datatype>W</datatype>
+      <value>50</value>
+    </attribute>
+    <attribute>
+      <id>601</id>
+      <datatype>B</datatype>
+      <value>1</value>
+    </attribute>
+    <attribute>
+      <id>602</id>
+      <datatype>B</datatype>
+      <value>2</value>
+    </attribute>
+    <attribute>
+      <id>603</id>
+      <datatype>B</datatype>
+      <value>65</value>
+    </attribute>
+    <attribute>
+      <id>727</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>656</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>657</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>654</id>
+      <datatype>F</datatype>
+      <value>True</value>
+    </attribute>
+    <attribute>
+      <id>658</id>
+      <datatype>B</datatype>
+      <value>1</value>
+    </attribute>
+    <attribute>
+      <id>829</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>830</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>651</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>652</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>595</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>1360</id>
+      <datatype>F</datatype>
+      <value>True</value>
     </attribute>
     <attribute>
       <id>670</id>
@@ -1087,46 +1447,56 @@
       <value>True</value>
     </attribute>
     <attribute>
+      <id>256</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>258</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>259</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
       <id>616</id>
       <datatype>S</datatype>
-      <value>Untitled1       </value>
+      <value>Untitled2       </value>
     </attribute>
   </attrib_list>
   <extended_attrib_list>
     <attribute>
       <id>45001</id>
       <datatype>B</datatype>
-      <value>0</value>
+      <value>3</value>
     </attribute>
     <attribute>
       <id>45004</id>
-      <datatype>B</datatype>
-      <value>0</value>
+      <datatype>F</datatype>
+      <value>False</value>
     </attribute>
     <attribute>
       <id>45014</id>
-      <datatype>B</datatype>
-      <value>0</value>
+      <datatype>F</datatype>
+      <value>True</value>
     </attribute>
     <attribute>
       <id>45015</id>
-      <datatype>B</datatype>
-      <value>0</value>
+      <datatype>F</datatype>
+      <value>True</value>
     </attribute>
     <attribute>
       <id>45018</id>
-      <datatype>B</datatype>
-      <value>0</value>
+      <datatype>F</datatype>
+      <value>False</value>
     </attribute>
     <attribute>
       <id>45026</id>
       <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45009</id>
-      <datatype>B</datatype>
-      <value>0</value>
+      <value>1</value>
     </attribute>
     <attribute>
       <id>45003</id>
@@ -1141,12 +1511,12 @@
     <attribute>
       <id>45006</id>
       <datatype>B</datatype>
-      <value>0</value>
+      <value>1</value>
     </attribute>
     <attribute>
       <id>45007</id>
       <datatype>B</datatype>
-      <value>0</value>
+      <value>1</value>
     </attribute>
     <attribute>
       <id>45008</id>
@@ -1176,7 +1546,7 @@
     <attribute>
       <id>45023</id>
       <datatype>F</datatype>
-      <value>False</value>
+      <value>True</value>
     </attribute>
     <attribute>
       <id>45025</id>
@@ -1184,77 +1554,7 @@
       <value>True</value>
     </attribute>
     <attribute>
-      <id>45030</id>
-      <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45033</id>
-      <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45031</id>
-      <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45032</id>
-      <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45038</id>
-      <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45041</id>
-      <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45040</id>
-      <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45044</id>
-      <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45042</id>
-      <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45046</id>
-      <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45047</id>
-      <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45048</id>
-      <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45045</id>
-      <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45049</id>
-      <datatype>B</datatype>
-      <value>0</value>
-    </attribute>
-    <attribute>
-      <id>45043</id>
+      <id>45009</id>
       <datatype>B</datatype>
       <value>0</value>
     </attribute>
@@ -1275,8 +1575,8 @@
     </attribute>
     <attribute>
       <id>45057</id>
-      <datatype>B</datatype>
-      <value>0</value>
+      <datatype>F</datatype>
+      <value>False</value>
     </attribute>
     <attribute>
       <id>45052</id>
@@ -1299,14 +1599,14 @@
       <value>0</value>
     </attribute>
     <attribute>
-      <id>45055</id>
+      <id>45060</id>
       <datatype>B</datatype>
       <value>0</value>
     </attribute>
     <attribute>
-      <id>45060</id>
-      <datatype>B</datatype>
-      <value>0</value>
+      <id>45055</id>
+      <datatype>F</datatype>
+      <value>False</value>
     </attribute>
     <attribute>
       <id>45061</id>
@@ -1328,6 +1628,141 @@
       <datatype>B</datatype>
       <value>0</value>
     </attribute>
+    <attribute>
+      <id>45083</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>45085</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>45088</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>45084</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>45089</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>45091</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>45087</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>45090</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>45093</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>45095</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>45094</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>45030</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>45031</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>45032</id>
+      <datatype>F</datatype>
+      <value>True</value>
+    </attribute>
+    <attribute>
+      <id>45033</id>
+      <datatype>F</datatype>
+      <value>True</value>
+    </attribute>
+    <attribute>
+      <id>45038</id>
+      <datatype>B</datatype>
+      <value>4</value>
+    </attribute>
+    <attribute>
+      <id>45041</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>45040</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>45044</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>45042</id>
+      <datatype>F</datatype>
+      <value>True</value>
+    </attribute>
+    <attribute>
+      <id>45139</id>
+      <datatype>F</datatype>
+      <value>True</value>
+    </attribute>
+    <attribute>
+      <id>45046</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>45047</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>45048</id>
+      <datatype>B</datatype>
+      <value>0</value>
+    </attribute>
+    <attribute>
+      <id>45045</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>45049</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
+    <attribute>
+      <id>45043</id>
+      <datatype>F</datatype>
+      <value>False</value>
+    </attribute>
   </extended_attrib_list>
-  <self-hash>ef0b2e12145760ce9f86778966bbd936</self-hash>
+  <self-hash>e893bcddc3f654b91f66a900f2667c71</self-hash>
 </scannerconfig>
