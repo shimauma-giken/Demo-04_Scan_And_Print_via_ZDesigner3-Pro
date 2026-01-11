@@ -98,7 +98,7 @@
     ![alt text](image-10.png) 
     </br>
 
-1. 印刷先プリンタの設定をする。
+1. 印刷先プリンタの設定をする。</br>
     ![alt text](image-5.png) 
     </br>
 
