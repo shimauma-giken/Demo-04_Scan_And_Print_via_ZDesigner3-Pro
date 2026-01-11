@@ -75,7 +75,7 @@
    </br>
 
 3. 印刷先プリンタの設定をする。</br>
-    ![alt text](image-9.png)    
+    ![alt text](image-5.png) 
     </br>
 
 1. 印刷ボタンを押下し、印刷する。
@@ -95,7 +95,8 @@
    </br>
 
 3. **ファイル** → **印刷**を選択し、印刷画面に遷移する。
-   ![alt text](image-1.png)</br>
+    ![alt text](image-10.png) 
+    </br>
 
 1. 印刷先プリンタの設定をする。
     ![alt text](image-5.png) 
